@@ -93,7 +93,7 @@ nav a {
 }
 
 
-/*Gallery*/
+/*Collection*/
 
 .gallery-title {
     /*分隔線設定*/
@@ -190,6 +190,11 @@ section a:hover p {
     width: 80%;
 }
 
+.subMenu{
+    display: none;
+}
+
+/* Collection End*/
 
 /*About Me setting*/
 
@@ -230,8 +235,6 @@ section a:hover p {
 
 .mydata {
     padding: 30px;
-    height: 360px;
-    overflow: hidden;
 }
 
 .mydata h2 {
@@ -248,14 +251,22 @@ section a:hover p {
     color: #656565;
 }
 
-.readMore-btn {
+#readMore-btn {
     color: #f08d8d;
 }
 
-button:hover.readMore-btn {
+button:hover#readMore-btn {
     background-color: #b4e5ff;
     color: #ffffff;
 }
+
+.dataHide{
+    display: none;
+}
+.dataHide h3{
+    color: #939393;
+}
+
 
 /*Section setting END*/
 
